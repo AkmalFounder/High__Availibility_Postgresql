@@ -1,10 +1,8 @@
 # PostgreSQL High-Availability Cluster :elephant: :sparkling_heart:
 
 [![Ansible Galaxy](https://img.shields.io/badge/galaxy-vitabaks.postgresql_cluster-success.svg)](https://galaxy.ansible.com/vitabaks/postgresql_cluster)
-[<img src="https://github.com/vitabaks/postgresql_cluster/workflows/Ansible-lint/badge.svg?branch=master">](https://github.com/vitabaks/postgresql_cluster/actions?query=workflow%3AAnsible-lint)
 [<img src="https://github.com/vitabaks/postgresql_cluster/workflows/Yamllint/badge.svg?branch=master">](https://github.com/vitabaks/postgresql_cluster/actions?query=workflow%3AYamllint)
 [<img src="https://github.com/vitabaks/postgresql_cluster/workflows/Molecule/badge.svg?branch=master">](https://github.com/vitabaks/postgresql_cluster/actions?query=workflow%3AMolecule)
-[![GitHub license](https://img.shields.io/github/license/vitabaks/postgresql_cluster)](https://github.com/vitabaks/postgresql_cluster/blob/master/LICENSE) 
 ![GitHub stars](https://img.shields.io/github/stars/vitabaks/postgresql_cluster)
 
 ### Deploy a Production Ready PostgreSQL High-Availability Cluster (based on "Patroni" and "DCS(etcd)"). Automating with Ansible.
@@ -18,7 +16,6 @@ In addition to deploying new clusters, this playbook also support the deployment
 
 ---
 
-:trophy: _Please consider [sponsoring](https://github.com/vitabaks/postgresql_cluster#sponsor-this-project) this project. It is necessary that this open source project become even better, so that more functionality and automation are added. Also, some membership levels include live chat with me and personalized support._
 
 
 ## Index
@@ -248,8 +245,6 @@ proxy_env:
 
 `ansible-playbook deploy_pgcluster.yml`
 
-[![asciicast](https://asciinema.org/a/251019.svg)](https://asciinema.org/a/251019?speed=5)
-
 ---
 
 ## Variables
@@ -464,28 +459,4 @@ Run the script and all the data are gone.
 
 A new installation can now be made from scratch.
  
-:heavy_exclamation_mark: Be careful not to copy this script without the *safety pin* to the production environment.
-
 ---
-
-## License
-Licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-## Author
-Vitaliy Kukharik (PostgreSQL DBA) \
-vitabaks@gmail.com
-
-## Sponsor this project
-
-Support our work through [Patreon](https://www.patreon.com/vitabaks):
-
-[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvitabaks%26type%3Dpatrons&style=for-the-badge)](https://patreon.com/vitabaks)
-
-Support our work through crypto wallet:
-
-USDT (TRC20): `TSTSXZzqDCUDHDjZwCpuBkdukjuDZspwjj`
-
----
-
-## Feedback, bug-reports, requests, ...
-Are [welcome](https://github.com/vitabaks/postgresql_cluster/issues)!
